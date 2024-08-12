@@ -11,6 +11,11 @@
 		C20BC01C2C675FE1003AFBB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BC01B2C675FE1003AFBB0 /* ContentView.swift */; };
 		C20BC01E2C675FE3003AFBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20BC01D2C675FE3003AFBB0 /* Assets.xcassets */; };
 		C20BC0222C675FE3003AFBB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20BC0212C675FE3003AFBB0 /* Preview Assets.xcassets */; };
+		C20BC02A2C6760EA003AFBB0 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BC0292C6760EA003AFBB0 /* SidebarView.swift */; };
+		C20BC02C2C6760FF003AFBB0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BC02B2C6760FF003AFBB0 /* HomeView.swift */; };
+		C20BC02E2C676117003AFBB0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BC02D2C676117003AFBB0 /* SettingsView.swift */; };
+		C20BC0302C676130003AFBB0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BC02F2C676130003AFBB0 /* ProfileView.swift */; };
+		C20BC0322C6767F8003AFBB0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20BC0312C6767F8003AFBB0 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		C20BC01D2C675FE3003AFBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C20BC01F2C675FE3003AFBB0 /* DashBoard1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DashBoard1.entitlements; sourceTree = "<group>"; };
 		C20BC0212C675FE3003AFBB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C20BC0292C6760EA003AFBB0 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		C20BC02B2C6760FF003AFBB0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C20BC02D2C676117003AFBB0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C20BC02F2C676130003AFBB0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C20BC0312C6767F8003AFBB0 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				C20BC0192C675FE1003AFBB0 /* DashBoard1App.swift */,
-				C20BC01B2C675FE1003AFBB0 /* ContentView.swift */,
+				C20BC0282C6760BA003AFBB0 /* Views */,
 				C20BC01D2C675FE3003AFBB0 /* Assets.xcassets */,
 				C20BC01F2C675FE3003AFBB0 /* DashBoard1.entitlements */,
 				C20BC0202C675FE3003AFBB0 /* Preview Content */,
@@ -67,6 +77,27 @@
 				C20BC0212C675FE3003AFBB0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C20BC0282C6760BA003AFBB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C20BC0332C6769EC003AFBB0 /* Screens */,
+				C20BC01B2C675FE1003AFBB0 /* ContentView.swift */,
+				C20BC0312C6767F8003AFBB0 /* DetailsView.swift */,
+				C20BC0292C6760EA003AFBB0 /* SidebarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C20BC0332C6769EC003AFBB0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C20BC02B2C6760FF003AFBB0 /* HomeView.swift */,
+				C20BC02D2C676117003AFBB0 /* SettingsView.swift */,
+				C20BC02F2C676130003AFBB0 /* ProfileView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20BC02E2C676117003AFBB0 /* SettingsView.swift in Sources */,
+				C20BC0322C6767F8003AFBB0 /* DetailsView.swift in Sources */,
 				C20BC01C2C675FE1003AFBB0 /* ContentView.swift in Sources */,
+				C20BC02C2C6760FF003AFBB0 /* HomeView.swift in Sources */,
 				C20BC01A2C675FE1003AFBB0 /* DashBoard1App.swift in Sources */,
+				C20BC0302C676130003AFBB0 /* ProfileView.swift in Sources */,
+				C20BC02A2C6760EA003AFBB0 /* SidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
